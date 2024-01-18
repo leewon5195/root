@@ -90,7 +90,7 @@ print(f'숫자 2의 갯수 : {find2}개')
 #json파일을 만드려면 json 모듈을 import 해야한다.
 import json
 
-dict_list = {
+dict_list = [
     {
     'name' : 'james',
     'age' : 20,
@@ -102,7 +102,7 @@ dict_list = {
         'spec': [168.5, 60.5]
     }
 
-}
+]
 
 #dumps는 병렬인 데이터를 직렬로 변경해주는 역할
 json_string = json.dumps(dict_list)
